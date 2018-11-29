@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Atmosphero</string>
+    <string name="temperature_label">Temperature</string>
+    <string name="zero">0</string>
+    <string name="humidity_label">Humidity</string>
+    <string name="pressure_label">Pressure</string>
+    <string name="settings_label">Settings</string>
+    <string name="temperature_icon">temperature_icon</string>
+    <string name="humidity_icon">humidity_icon</string>
+    <string name="pressure_icon">pressure_icon</string>
+    <string name="settings_activity_header">Settings</string>
+    <string name="ip_address_hint">IP Address</string>
+    <string name="ip_address">IP Address:</string>
+    <string name="pressure_units">Pressure Units:</string>
+    <string name="temperature_units">Temperature Units:</string>
+    <string name="celsius">Celsius</string>
+    <string name="farenheit">Farenheit</string>
+    <string name="pascals">Pascals</string>
+    <string name="kilopascals">Kilopascals</string>
+    <string name="save_serrings">Save Settings</string>
+</resources>

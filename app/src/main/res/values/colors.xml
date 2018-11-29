@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <color name="colorPrimary">#3F51B5</color>
+        <color name="colorPrimaryDark">#303F9F</color>
+        <color name="colorAccent">#FF4081</color>
+        <color name="white">#ffffff</color>
+        <color name="yellow">#ffe601</color>
+        <color name="green">#3ee657</color>
+        <color name="teal">#00bfff</color>
+        <color name="orange">#ffaf84</color>
+        <color name="bg">#b406245c</color>
+        <color name="bgx">#64232323</color>
+        <color name="bgy">#f5010d23</color>
+        <color name="md_red_500">#e51c23</color>
+        <color name="md_pink_500">#e91e63</color>
+        <color name="md_purple_500">#9c27b0</color>
+        <color name="md_deep_purple_500">#673ab7</color>
+        <color name="md_indigo_500">#3f51b5</color>
+        <color name="md_blue_500">#5677fc</color>
+        <color name="md_light_blue_500">#03a9f4</color>
+        <color name="md_cyan_500">#00bcd4</color>
+        <color name="md_teal_500">#009688</color>
+        <color name="md_green_500">#259b24</color>
+        <color name="md_light_green_500">#8bc34a</color>
+        <color name="md_lime_500">#cddc39</color>
+        <color name="md_yellow_500">#ffeb3b</color>
+        <color name="md_amber_500">#ffc107</color>
+        <color name="md_orange_500">#ff9800</color>
+        <color name="md_deep_orange_500">#ff5722</color>
+        <color name="md_brown_500">#795548</color>
+        <color name="md_grey_500">#9e9e9e</color>
+        <color name="md_blue_grey_500">#607d8b</color>
+        <color name="md_white">#ffffff</color>
+        <color name="so_blue">#22c9b0</color>
+</resources>

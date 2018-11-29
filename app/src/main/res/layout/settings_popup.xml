@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/bgy"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bgy"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/textViewSettingsHeader"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/maxter"
+            android:text="@string/settings_activity_header"
+            android:textAlignment="center"
+            android:textColor="@color/so_blue"
+            android:textSize="32sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewIpAddressLabel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fontFamily="@font/maxter"
+        android:padding="16dp"
+        android:text="@string/ip_address"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/editTextViewIpAddressValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/md_blue_grey_500"
+        android:digits="0123456789."
+        android:hint="@string/ip_address_hint"
+        android:inputType="number|numberDecimal"
+        android:padding="16dp"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <TextView
+        android:id="@+id/textViewTemperatureRadioLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/maxter"
+        android:padding="16dp"
+        android:text="@string/temperature_units"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupTemperatureUnits"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/md_blue_grey_500">
+
+        <RadioButton
+            android:id="@+id/radioButtonSelectCelsius"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/maxter"
+            android:padding="16dp"
+            android:text="@string/celsius"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSelectFarenheit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/maxter"
+            android:padding="16dp"
+            android:text="@string/farenheit"
+            android:textColor="@color/white" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textViewPressureRadioLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/maxter"
+        android:padding="16dp"
+        android:text="@string/pressure_units"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupPressureUnits"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/md_blue_grey_500">
+
+        <RadioButton
+            android:id="@+id/radioButtonSelectPascals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/maxter"
+            android:padding="16dp"
+            android:text="@string/pascals"
+            android:textColor="@color/white" />
+
+        <RadioButton
+            android:id="@+id/radioButtonSelectKilopascals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/maxter"
+            android:padding="16dp"
+            android:text="@string/kilopascals"
+            android:textColor="@color/white" />
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonSaveSettings"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_bgcolor_settings"
+            android:fontFamily="@font/maxter"
+            android:text="@string/save_serrings"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
